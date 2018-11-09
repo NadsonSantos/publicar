@@ -1,0 +1,167 @@
+* {
+  margin: 0%;
+  padding: 0%;
+  border: 0px;
+  font-family: Lato;
+}
+
+.solution {
+  display: flex;
+  flex-direction: column;
+  width: 100%;
+  justify-content: center;
+  align-items: center;
+  background: radial-gradient(circle at 52% 50%, #ffffff, #fefefe);
+  padding-top: 130px;
+  padding-bottom: 110px;
+}
+
+.title {
+  text-shadow: 0 0 60px rgba(0, 0, 0, 0.28);
+  width: 601px;
+  font-weight: 900;
+  color: #000;
+  font-size: 50px;
+  text-align: center;
+}
+
+.option {
+  display: flex;
+  flex-direction: row;
+  list-style: none;
+  margin-top: 70px;
+}
+
+.option li {
+  width: 340px;
+  padding-left: 69px;
+}
+
+.option li:first-child {
+  padding-left: 0px;
+}
+
+.option-img {
+  width: 340px;
+  height: 190px;
+  margin-bottom: 41px;
+}
+
+.option-title {
+  display: flex;
+  justify-content: center;
+  font-size: 24px;
+  font-weight: 900;
+  text-transform: uppercase;
+  margin-bottom: 9px;
+}
+
+.option-text {
+  font-size: 16px;
+  font-weight: 300;
+  line-height: 1.69;
+  text-align: center;
+  color: #4a4a4a;
+}
+
+.words-title {
+  width: 740px;
+  text-align: center;
+}
+
+.words-text {
+  width: 571px;
+  font-size: 16px;
+  line-height: 1.69;
+  color: #4a4a4a;
+}
+
+.btn {
+  width: 237px;
+  height: 65px;
+  border-radius: 5px;
+  box-shadow: 0 0 20px 0 rgba(0, 0, 0, 0.2);
+  background-color: #7ed321;
+  font-size: 14px;
+  font-weight: 900;
+  color: #ffffff;
+}
+
+.footer {
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  align-items: end;
+  padding-top: 130px;
+  padding-bottom: 116px;
+}
+
+.solues {
+  margin-right: 110px;
+  justify-content: left;
+}
+
+.bond {
+  margin-right: 103px;
+  justify-content: left;
+}
+
+.contact {
+  justify-content: left;
+  margin-right: 37px;
+}
+
+.contact-img {
+  width: 191px;
+  height: 63px;
+  margin-bottom: 16px;
+}
+
+.contact-text {
+  font-size: 16px;
+  color: #4a4a4a;
+}
+
+.contact-number {
+  font-size: 16px;
+  font-weight: bold;
+  color: #4a4a4a;
+  margin-top: 12px;
+  margin-bottom: 39px;
+}
+
+.list-title {
+  font-size: 20px;
+  font-weight: 900;
+  text-align: left;
+  margin-bottom: 14px;
+}
+
+.adm {
+  line-height: 1.75;
+  margin-bottom: 33px;
+}
+
+.area {
+  width: 220px;
+  height: 66px;
+  background-color: #7ed321;
+  color: white;
+  text-decoration: none;
+  padding: 25px 56px;
+  font-size: 14px;
+  font-weight: 900;
+  border-radius: 5px;
+  box-shadow: 0 0 20px 0 rgba(0, 0, 0, 0.2);
+  text-align: center;
+}
+
+.footer-list {
+  list-style: none;
+}
+
+.footer-list li a {
+  font-size: 16px;
+  color: #7ed321;
+  line-height: 1.75;
+}

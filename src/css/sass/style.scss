@@ -1,0 +1,14 @@
+
+*{
+    margin: 0%;
+    padding: 0%;
+    border: 0px;
+    font-family: Lato;
+}
+$shadow : 0 0 60px rgba(0, 0, 0, 0.28);
+
+@import  "_imports/header.scss";
+@import  "_imports/section.scss";
+@import  "_imports/footer.scss";
+@import  "_imports/main.scss";
+@import  "_imports/media.scss";
