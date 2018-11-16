@@ -6,10 +6,60 @@
     <title>Publicar</title>
     <meta name="viewport" content="width=device-width, initial-scale=1">
     <link rel="stylesheet" type="text/css" href="src/css/style.min.css" />
+    <link href="https://fonts.googleapis.com/css?family=Lato" rel="stylesheet">
     <!-- <script src="main.js"></script> -->
 </head>
 <body>
-    <header>
+    <header class="head">
+        <nav class="menu">
+            <img src="" alt="sitiosoficiais">
+            <ul class="menu-container">
+                <li>
+                    <a href="#">Quem somos</a>
+                </li>
+                <li>
+                    <a href="#">Publicações</a>
+                </li>
+                <li>
+                    <a href="#">Entidades</a>
+                </li>
+                <li>
+                    <a href="#">Fale Conosco</a>
+                </li>
+                <li>
+                    <a id="search" href="#">
+                        <img src="" alt="busca">
+                    </a>
+                </li>
+            </ul>
+        </nav>
+        <div class="head-img">
+            <img src="#" alt="">
+        </div>
+        <div class="head-container">
+            <h1>
+                    O melhor e mais 
+                    acessível Diario Oficial
+            </h1>
+            <form action="" method="POST">
+                <select name="estado" id="">
+                    <option value="" selected>Selecione um estado</option>
+                    <option value=""></option>
+                    <option value=""></option>
+                </select>
+                <select name="municipio" >
+                    <option value="">Selecione um munícipio</option>
+                    <option value=""></option>
+                    <option value=""></option>
+                </select>
+                <select name="camera" id="">
+                    <option value="">Camera</option>
+                    <option value=""></option>
+                    <option value=""></option>
+                </select>
+                <button>Acessar</button>
+            </form>
+        </div>
 
     </header>
     <main>
@@ -44,10 +94,10 @@
         </section>
         <section class="words">
             <h2 class="title  words-title">
-                    Com mais de 30 anos somos uma
+                    Com mais de 30 anos somos uma <br>
                     empresa certificada
             </h2>
-            <img src="" alt="">
+            <img class="words-img" src="" alt="">
             <p class="words-text">É um fato conhecido de todos que um leitor se distrairá com o conteúdo de texto legível de uma página quando estiver examinando sua diagramação.
                  A vantagem de usar Lorem Ipsum é que ele tem uma distribuição normal de letras, ao contrário de "Conteúdo aqui, 
                  conteúdo aqui", fazendo com que ele tenha uma aparência similar a de um texto legível.
@@ -60,9 +110,13 @@
                      Ele usa um dicionário com mais de 200 palavras em Latim combinado com um punhado de modelos de estrutura de frases para gerar um Lorem Ipsum com aparência razoável, 
                     livre de repetições, inserções de humor, palavras não características, etc.
             </p>
-            <button class="btn">Saiba Mais</button>
+            <a href="#" class="btn">Saiba Mais</a>
         </section>
-        <section></section>
+        <section class="plublication">
+            <h2 class="title plublication-title">Ultimas Publicações</h2>
+            <div></div>
+            <a href="#" class="btn">Todas as publicações</a>
+        </section>
     </main>
     <footer class="footer">
         <div class="contact">
@@ -125,7 +179,7 @@
         <div class="limited">
             <h5 class="list-title">Você já é um cliente?</h5>
             <p class="contact-text adm">Acesse nossa área adminstrativa</p>
-            <a class="area" href="#">Área Restrita</a>
+            <a class="btn" href="#">Área Restrita</a>
         </div>
     </footer>
 </body>

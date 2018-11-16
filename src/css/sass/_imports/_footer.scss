@@ -46,19 +46,6 @@
     line-height: 1.75;
     margin-bottom: 33px;
 };
-.area{
-    width: 220px;
-    height: 66px;
-    background-color: #7ed321;
-    color: white;
-    text-decoration: none;
-    padding: 25px 56px;
-    font-size: 14px;
-    font-weight: 900;
-    border-radius: 5px;
-    box-shadow: 0 0 20px 0 rgba(0, 0, 0, 0.2);
-    text-align: center;
-};
 
 .footer-list{
     list-style: none;
@@ -68,5 +55,11 @@
             color: #7ed321;
             line-height: 1.75;
         }
+    }
+};
+
+.limited{
+    a{
+        padding: 25px 56px;
     }
 }
