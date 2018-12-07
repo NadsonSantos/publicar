@@ -2,6 +2,7 @@ var gulp = require('gulp');
 var sass = require('gulp-sass');
 var browserSync = require('browser-sync');
 var rename = require('gulp-rename');
+var copy = require('gulp-contrib-copy');
 var reload = browserSync.reload;
 
 // produção 
