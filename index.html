@@ -33,34 +33,61 @@
                 </li>
             </ul>
         </nav>
-        <div class="head-img">
-            <img src="./src/assets/mac-book-pro-mockup.png" alt="">
-        </div>
         <div class="head-container">
-            <h1>
-                    O melhor e mais 
+            <div class="head-img">
+                    <img src="./src/assets/mac-book-pro-mockup.png" alt="">
+            </div>
+            <div class="head-block">
+                <h1 class="head-title">
+                    O melhor e mais <br>
                     acessível Diario Oficial
-            </h1>
-            <form action="" method="POST">
-                <select name="estado" id="">
-                    <option value="" selected>Selecione um estado</option>
-                    <option value=""></option>
-                    <option value=""></option>
-                </select>
-                <select name="municipio" >
-                    <option value="">Selecione um munícipio</option>
-                    <option value=""></option>
-                    <option value=""></option>
-                </select>
-                <select name="camera" id="">
-                    <option value="">Camera</option>
-                    <option value=""></option>
-                    <option value=""></option>
-                </select>
-                <button>Acessar</button>
-            </form>
+                </h1>
+                <p class="head-subtitle" > Acesse o Diário Oficial</p>
+                <form class="head-form" action="" method="POST">
+                    <select class="form-select" name="estado" id="">
+                        <option value="" selected>Selecione um estado</option>
+                        <option value="AC">Acre</option>
+                        <option value="AL">Alagoas</option>
+                        <option value="AP">Amapá</option>
+                        <option value="AM">Amazonas</option>
+                        <option value="BA">Bahia</option>
+                        <option value="CE">Ceará</option>
+                        <option value="DF">Distrito Federal</option>
+                        <option value="ES">Espírito Santo</option>
+                        <option value="GO">Goiás</option>
+                        <option value="MA">Maranhão</option>
+                        <option value="MT">Mato Grosso</option>
+                        <option value="MS">Mato Grosso do Sul</option>
+                        <option value="MG">Minas Gerais</option>
+                        <option value="PA">Pará</option>
+                        <option value="PB">Paraíba</option>
+                        <option value="PR">Paraná</option>
+                        <option value="PE">Pernambuco</option>
+                        <option value="PI">Piauí</option>
+                        <option value="RJ">Rio de Janeiro</option>
+                        <option value="RN">Rio Grande do Norte</option>
+                        <option value="RS">Rio Grande do Sul</option>
+                        <option value="RO">Rondônia</option>
+                        <option value="RR">Roraima</option>
+                        <option value="SC">Santa Catarina</option>
+                        <option value="SP">São Paulo</option>
+                        <option value="SE">Sergipe</option>
+                        <option value="TO">Tocantins</option>
+                    </select>
+                    <select class="form-select" name="municipio" id="">
+                        <option value="">Selecione um munícipio</option>
+                        <option value=""></option>
+                        <option value=""></option>
+                    </select>
+                    <select class="form-select" name="camera" id="">
+                        <option value="">Camera</option>
+                        <option value=""></option>
+                        <option value=""></option>
+                    </select>
+                    <button class="form-btn">Acessar</button>
+                </form>
+            </div>
         </div>
-
     </header>
     <main>
         <section class="solution">
@@ -99,21 +126,23 @@
             </h2>
             <div class="words-container">
                 <img class="words-img" src="./src/assets/2002.png" alt="">
-                <p class="words-text">É um fato conhecido de todos que um leitor se distrairá com o conteúdo de texto legível de uma página quando estiver examinando sua diagramação.
-                 A vantagem de usar Lorem Ipsum é que ele tem uma distribuição normal de letras, ao contrário de "Conteúdo aqui, 
-                 conteúdo aqui", fazendo com que ele tenha uma aparência similar a de um texto legível.
-                    Existem muitas variações disponíveis de passagens de Lorem Ipsum, mas a maioria sofreu algum tipo de alteração,
-                     seja por inserção de passagens com humor, ou palavras aleatórias que não parecem nem um pouco convincentes.
-                      Se você pretende usar uma passagem de Lorem Ipsum,
-                     precisa ter certeza de que não há algo embaraçoso escrito escondido no meio do texto. 
-                     Todos os geradores de Lorem Ipsum na internet tendem a repetir pedaços predefinidos conforme necessário, 
-                     fazendo deste o primeiro gerador de Lorem Ipsum autêntico da internet. 
-                     Ele usa um dicionário com mais de 200 palavras em Latim combinado com um punhado de modelos de estrutura de frases para gerar um Lorem Ipsum com aparência razoável, 
-                    livre de repetições, inserções de humor, palavras não características, etc.
-                </p>
-                
+                <div class="words-block">
+                    <p class="words-text">É um fato conhecido de todos que um leitor se distrairá com o conteúdo de texto legível de uma página quando estiver examinando sua diagramação.
+                        A vantagem de usar Lorem Ipsum é que ele tem uma distribuição normal de letras, ao contrário de "Conteúdo aqui, 
+                        conteúdo aqui", fazendo com que ele tenha uma aparência similar a de um texto legível.
+                           Existem muitas variações disponíveis de passagens de Lorem Ipsum, mas a maioria sofreu algum tipo de alteração,
+                            seja por inserção de passagens com humor, ou palavras aleatórias que não parecem nem um pouco convincentes.
+                             Se você pretende usar uma passagem de Lorem Ipsum,
+                            precisa ter certeza de que não há algo embaraçoso escrito escondido no meio do texto. 
+                            Todos os geradores de Lorem Ipsum na internet tendem a repetir pedaços predefinidos conforme necessário, 
+                            fazendo deste o primeiro gerador de Lorem Ipsum autêntico da internet. 
+                            Ele usa um dicionário com mais de 200 palavras em Latim combinado com um punhado de modelos de estrutura de frases para gerar um Lorem Ipsum com aparência razoável, 
+                           livre de repetições, inserções de humor, palavras não características, etc.
+                    </p>
+                    <a href="#" class="btn">Saiba Mais</a>
+                </div>
             </div>
-            <a href="#" class="btn">Saiba Mais</a>
+            
         </section>
         <section class="plublication">
             <h2 class="title plublication-title">Ultimas Publicações</h2>
@@ -185,5 +214,6 @@
             <a class="btn" href="#">Área Restrita</a>
         </div>
     </footer>
+    <script src="./node_modules/jquery/dist/jquery.js"></script>
 </body>
 </html>

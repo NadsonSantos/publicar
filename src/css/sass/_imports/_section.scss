@@ -57,7 +57,10 @@
 .words-container{
     display: flex;
     margin-top: 70px;
-}
+};
+.words-block{
+    padding-top: 20px;
+};
 .words-title{
     width: auto;
     text-align: center;
@@ -67,12 +70,13 @@
     height: 535px;
     margin-right: 49px;
 };
+
 .words-text{
     width: 571px;
     font-size: 16px;
     line-height: 1.69;
     color: #4a4a4a;
-    margin-bottom: 27px;
+    margin-bottom: 35px;
     text-align: left;
 
 };

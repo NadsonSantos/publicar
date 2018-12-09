@@ -30,6 +30,7 @@ gulp.task('sass', function(){
 	.pipe(reload({ stream:true }))
 });
 
+
 gulp.task('default', [ 'sass', 'browser-sync'], function(){	
     gulp.watch(["./src/css/sass/**/*.scss", "./src/css/sass/*/*.scss"], ['sass'])
 })
