@@ -11,10 +11,12 @@ gulp.task('browser-sync', function() {
     	[
             "./src/css/sass/**/*.scss",
             "./src/css/sass/**/**/*.scss",
-    		"./src/css/*.css",
-            "./src/scripts/*.js", 
+            "./src/css/**.css",
+            ";/src/css/**.min.css",
+            "./src/js/**.js", 
     		"./*.html",
-    		"./src/image/*"
+            "./src/assets/**.png",
+            "./node_modules/jquery/dist/jquery.js"
 		], {
         server: {
             baseDir: "./"

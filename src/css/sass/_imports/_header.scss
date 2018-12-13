@@ -11,6 +11,7 @@
     display: flex;
     list-style: none;
     padding-top: 27px;
+    margin-left: 57px;
     li{
         border-radius: 5px;
         a{
@@ -40,6 +41,9 @@
 
 .head-container{
     display: flex;
+    justify-content: space-between;
+    padding-right: 130px;
+    padding-bottom: 84px;
 
 };
 .head-block{
@@ -76,7 +80,7 @@
     font-size: 14px;
     padding-left: 19px;
     option{
-        background: #30641d;
+        background: #30641d; 
     }
 };
 .form-btn{
